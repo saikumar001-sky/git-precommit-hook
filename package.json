@@ -20,6 +20,12 @@
     "eslint-plugin-vue": "^10.5.1",
     "globals": "^16.5.0",
     "husky": "^9.1.7",
+    "lint-staged": "^16.2.6",
     "vite": "^7.1.7"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,vue}": [
+      "eslint --fix"
+    ]
   }
 }
