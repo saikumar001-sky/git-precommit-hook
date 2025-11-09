@@ -1,6 +1,7 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import { ref } from 'vue';
+import HelloWorld from "./components/HelloWorld.vue";
+import { ref, onActivated } from "vue";
+const testdev = ref("");
 </script>
 
 <template>
@@ -8,7 +9,7 @@ import { ref } from 'vue';
     <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
-    <div> component dev testclcls</div>
+    <div>component dev testclcls</div>
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
